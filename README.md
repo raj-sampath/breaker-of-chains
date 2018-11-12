@@ -29,7 +29,7 @@ The Receiver kingdom
 The Message
 
 ## Sample Input 1
-Who is the ruler of Southeros? 
+Who is the ruler of Southeros?
 **Output**: None
 
 Allies of Ruler?
@@ -37,19 +37,19 @@ Allies of Ruler?
 
 Enter the kingdoms competing to be the ruler: Input: Ice Space Air
 
-Results after round one ballot count 
+Results after round one ballot count
 **Output**: Allies for Ice : 2
-**Output**: Allies for Space: 1 
+**Output**: Allies for Space: 1
 **Output**: Allies for Air: 0
 
-Who is the ruler of Southeros? 
+Who is the ruler of Southeros?
 **Output**: Ice
 
 Allies of Ruler?
 **Output**: Land Fire
 
 ## Sample Input 2
-Who is the ruler of Southeros? 
+Who is the ruler of Southeros?
 **Output**: None
 
 Allies of Ruler?
@@ -57,12 +57,11 @@ Allies of Ruler?
 
 Results after round one ballot count
 **Output**: Allies for Land : 1
-**Output**:: Allies for Air: 1 
+**Output**:: Allies for Air: 1
 
 Results after round two ballot count 
 **Output**: Allies for Land Output: 1
 **Output**: Allies for Air: 2
-
 
 Enter the kingdoms competing to be the ruler: Input: Land Air
  
