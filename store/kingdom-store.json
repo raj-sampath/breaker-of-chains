@@ -1,0 +1,26 @@
+[
+    {
+        "emblem": "Air",
+        "animal": "Owl"
+    },
+    {
+        "emblem": "Land",
+        "animal": "Panda"
+    },
+    {
+        "emblem": "Fire",
+        "animal": "Dragon"
+    },
+    {
+        "emblem": "Water",
+        "animal": "Octapus"
+    },
+    {
+        "emblem": "Space",
+        "animal": "Gorilla"
+    },
+    {
+        "emblem": "Ice",
+        "animal": "Mammoth"
+    }
+]

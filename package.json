@@ -1,0 +1,17 @@
+{
+  "name": "breaker-of-chains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node game.js"
+  },
+  "author": "Shyam Raj Sampath",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "number-to-words": "^1.2.4",
+    "prompt": "^1.0.0"
+  }
+}
