@@ -29,10 +29,10 @@ The Receiver kingdom
 The Message
 
 ## Sample Input 1
-Who is the ruler of Southeros?
+Who is the ruler of Southeros?  
 **Output**: None
 
-Allies of Ruler?
+Allies of Ruler?  
 **Output**: None
 
 Enter the kingdoms competing to be the ruler: Input: Ice Space Air
