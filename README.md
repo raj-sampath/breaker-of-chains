@@ -70,3 +70,26 @@ Enter the kingdoms competing to be the ruler: Input: Land Air
 2. Open Terminal/Command Prompt and navigate to the the code folder.
 3. npm install
 4. node game.js
+
+## Running Test Cases
+1. npm test
+
+# Architecture
+The project conatins 4 components.
+1. Models
+2. Store
+3. DOA
+4. Helper
+
+## Models
+These define the Classes for the two interacting components, Kingdom and Message.
+
+## Store
+This is the representation of a database. The Kingdom and the Messages can be pulled from a database. There is no reference to a particulat Kingdom in the application, hence new messages and kindoms can be added to removed and the application code will not change.
+
+## DOA - Data Object Layer
+These are helper classes that interact with the DB.
+
+## Helper
+These are helper classes that interact with the DB using the DOA Classes and encompass most of the business logic in the application.
+
