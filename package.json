@@ -4,7 +4,7 @@
   "description": "",
   "main": "game.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test/*.test.js",
     "start": "node game.js"
   },
   "author": "Shyam Raj Sampath",
@@ -13,5 +13,9 @@
     "lodash": "^4.17.11",
     "number-to-words": "^1.2.4",
     "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0"
   }
 }

@@ -8,7 +8,6 @@ module.exports = {
         let rulerMap = {};
         let max = 0;
         let ruler;
-        let numberOfAllies = 0;
         kingdoms.forEach((k) => {
             let thisAlly = k.getAlly();
             if(thisAlly !== undefined){
@@ -25,12 +24,17 @@ module.exports = {
         if(keys.length > 0){
             max = rulerMap[keys[0]];
             ruler = keys[0];
-            keys.forEach((key) => {
-                if(max < rulerMap[key]){
-                    ruler = key;
-                    max = rulerMap[key];
+
+            for(let i=1; i<keys.length; i++){
+                if(max < rulerMap[keys[i]]){
+                    ruler = keys[i];
+                    max = rulerMap[keys[i]];
                 }
-            });
+
+                if(max == rulerMap[keys[i]]){
+                    ruler = errorMessages.NONE;
+                }
+            }
 
             return ruler;
         }
@@ -79,7 +83,7 @@ module.exports = {
                 }
             }
             else{
-                throw new Error("Imvalid List !!!");
+                throw new Error("Invalid List !!!");
             }
         }
     },
